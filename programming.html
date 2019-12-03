@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <title>My Sketch</title>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/processing.js/1.6.0/processing.min.js"></script>
+</head>
+<body>
+<script type="application/processing">
+void setup() {
+size (500,500);
+}
+void draw() {
+background(160, 210, 230);
+fill(255,0,0);
+rect(152, 90, 195, 156, 10);
+fill(150,75,0);
+ellipse(250, 240, 197, 220);
+fill(0,100,0);
+triangle(230,230,270,230,250,270);
+fill(0);
+ellipse(220,180,25,25);
+fill(0);
+ellipse(285,180,25,25);
+fill(0);
+ellipse(250,310,120,50);
+fill(255,192,203);
+ellipse(250,350,50,100);
+fill(255,255,90);
+ellipse(10,10,100,100);
+fill(255,0,255);
+line(mouseX, mouseY, mouseX, mouseY-100);
+ellipse (mouseX, mouseY-100, 50,50);
+}
+/script>
+<canvas> </canvas>
+</body>
+</html>
